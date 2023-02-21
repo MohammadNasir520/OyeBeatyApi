@@ -1,19 +1,22 @@
 const express = require("express");
 const mongoose = require("mongoose")
 const app = express();
+const cors = require('cors')
 const port = process.env.PORT || 5000;
 mongoose.set('strictQuery', true)
 require('dotenv').config()
 
 // middleWare
 app.use(express.json())
+app.use(cors())
 
 
+// movies router use
 const moviesRouter = require('./routes/moviesRoutes')
 app.use(moviesRouter)
 
 
-
+//  data base connection by mongoose
 const database = module.exports = () => {
     const connectionParams = {
         useNewUrlParser: true,
