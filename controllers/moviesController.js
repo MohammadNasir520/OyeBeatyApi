@@ -48,7 +48,7 @@ exports.getSinglesMovie = async (req, res) => {
 }
 
 
-//  get paginated api
+//  get paginated api.
 exports.getPaginated = async (req, res) => {
     const page = Number(req.query.page) || 1;
     const size = Number(req.query.size) || 2;
