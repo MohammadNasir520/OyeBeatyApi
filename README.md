@@ -1,12 +1,6 @@
 # OyeBeatyApi
-Full name -  MD. Nasir Uddin
-Email Id -  mdnasiruddin5201@gmail.com
-WhatsApp Number-  +8801729678295
-Alternate Number- +8801303676048
-Your Location - Dinajpur, Bangladesh
-Your College name with address- Hajee Mohammad Danesh Science and Technology University, Dinajpur, Bangladesh
-Internship- NodeJS Development Internship
-college pass-out Year- 2024 ( running 4th semester)
+
+
 
 
 GitHub-code: https://github.com/MohammadNasir520/OyeBeatyApi
